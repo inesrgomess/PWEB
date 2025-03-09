@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang = "pt-PT">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Programação Web </title>
+        <link rel="stylesheet" href="coresaula4.css">
+</head>
 
+<body class="container"> 
+    <header>
+        <h1> Site de Programação </h1>
+        <nav> 
+            <ul> 
+                <li><a href="#inicio"> Inicio </a></li> 
+                <li><a href="#sobre"> Sobre </a></li>
+                <li><a href="#contacto"> Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section id = "inicio"> 
+
+        <h2> Início </h2> 
+        <p> Bem-vindo ao nosso site de programação web! </p>
+        
+        <article> 
+            <h2> Primeiro Artigo </h2>
+            <p> Este é um artigo com informações importantes. </p>
+        </article>
+
+        <aside> 
+            <h3> Informações Adicionais </h3>
+            <p> Esta é uma barra lateral com informações adicionais ou anotações. </p>
+        </aside>
+    
+        <form> 
+            <h3>Contato</h3>
+            <label for="nome">Nome:</label> 
+            <input type="text" id="nome" name="nome" placeholder="Digita o teu nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digita o teu e-mail" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva uma mensagem aqui" required></textarea>
+            <div id="divbtn">
+            <button type="submit" class="btn">Enviar</button>
+            </div>
+        </form>
+    </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Site. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>
