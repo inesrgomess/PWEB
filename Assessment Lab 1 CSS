@@ -88,8 +88,7 @@ form input:focus, form textarea:focus {
     outline: none; 
 }
 
-
-button {
+.btn {
     border: none; 
     outline: none; 
     background-color: #00bcd4;
@@ -103,11 +102,11 @@ button {
 }
 
   
-button:active {
+.btn:active {
     transform: translateY(5px); 
     box-shadow: 0px 0px 0px 0px #00bcd4; 
 }
-button:hover{
+.btn:hover{
     background-color: #008ba3; 
 
 }
